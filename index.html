@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Dra Anna Becker</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/cover-image.jpg" alt="anna becker">
+        <a href="#"><i class="ri-whatsapp-line"></i></a>
+    </header>
+    <main id="main">
+        <section class="presentation">
+            <div class="presentation__title">
+                <img src="assets/images/anna-becker.jpg" alt="anna becker" class="presentation__title--image">
+                <h1 class="presentation__title--name">Dra Anna Becker</h1>
+            </div>
+            <h3 class="presentation__subtitle">Cirurgiã dentista especializada em dentística e implantodontia</h3>
+            <h4 class="presentation__registration">CRO-SP: 01234</h4>
+        </section>
+
+        <section class="certifications section">
+            <h2 class="title">Certificações</h2>
+        </section>
+
+        <section class="treatment section" id="treatments">
+            <h2 class="title">Tratamentos</h2>
+        </section>
+
+        <section class="testimonials section">
+            <h2 class="title">Depoimentos</h2>
+            <div class="slides-container testimonials__container">
+                <!-- Update the number of columns (grid-template-columns). It has to be equal to the number of slides -->
+                <div style="grid-template-columns: repeat(3, 1fr);" class="slider testimonials__slider"></div>
+                <div class="slider-arrows">
+                    <i class="ri-arrow-left-s-line slider-arrows__left testimonials__left"></i>
+                    <i class="ri-arrow-right-s-line slider-arrows__right testimonials__right"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="place section">
+            <h2 class="title">Espaço</h2>
+            <div class="slides-container place__container">
+                <!-- Update the number of columns (grid-template-columns). It has to be equal to the number of slides -->
+                <div style="grid-template-columns: repeat(4, 1fr);" class="slider place__slider"></div>
+                <div class="slider-arrows">
+                    <i class="ri-arrow-left-s-line slider-arrows__left place__left"></i>
+                    <i class="ri-arrow-right-s-line slider-arrows__right place__right"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="contacts section">
+            <div class="contacts__item">
+                <i class="ri-phone-line"></i>
+                <a href="tel:+551100000000">(11) 0000-0000</a>
+            </div>
+            <div class="contacts__item">
+                <i class="ri-mail-line"></i>
+                <a href="mailto:consulta@beckerodonto.com">consulta@beckerodonto.com</a>
+            </div>
+            <div class="contacts__item">
+                <i class="ri-map-pin-time-line"></i>
+                <p>Avenida Paulista - São Paulo/SP<br>Seg - Sex: 08:00 - 18:00</p>
+            </div>
+            <div class="contacts__item">
+                <i class="ri-instagram-line"></i><a href="#">@dr_annabecker</a>
+            </div>
+        </section>
+        <section class="copyright">
+            <p>Copyright &copy; 2023 Becker Odonto. Todos os direitos reservados.</p>
+        </section>
+    </footer>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

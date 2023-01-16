@@ -1,0 +1,34 @@
+.slides-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    display: grid;
+    transition: 1s;
+}
+
+.slide {
+    width: 275px;
+}
+
+@media screen and (min-width: 768px) {
+    .slide {
+        width: 568px;
+    }
+}
+
+.slider-arrows {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+
+.slider-arrows__left,
+.slider-arrows__right {
+    margin: 0.5rem;
+    cursor: pointer;
+}
