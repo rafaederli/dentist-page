@@ -123,8 +123,9 @@ main {
     text-align: justify;
 }
 
-.certifications__content--image {
-    display: none;  
+.certifications__content--description {
+    color: white;
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -136,11 +137,21 @@ main {
     z-index: 10;
 }
 
-.certifications__content--image img {
+.certifications__content--description img {
     width: var(--default-width);
 }
 
-.show-diploma .certifications__content--image {
+.certifications__content--description h4 {
+    font-size: var(--size-medium);
+    font-weight: var(--weight-medium);
+}
+
+.certifications__content--description p {
+    font-size: var(--size-small);
+    font-weight: var(--weight-light);
+}
+
+.show-diploma .certifications__content--description {
     display: block;
 }
 

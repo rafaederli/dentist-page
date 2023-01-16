@@ -21,13 +21,22 @@ certifications.map((element) => {
     searchIcon.classList.add("certifications__icon")
     content.appendChild(searchIcon)
 
-    let image = document.createElement("div")
-    image.classList.add("certifications__content--image")
+    let description = document.createElement("div")
+    description.classList.add("certifications__content--description")
     let imageSource = document.createElement("img")
     imageSource.setAttribute("src", element.image)
     imageSource.setAttribute("alt", element.alt)
-    image.appendChild(imageSource)
-    content.appendChild(image)
+    description.appendChild(imageSource)
+    
+    let diplomaTitle = document.createElement("h4")
+    diplomaTitle.innerHTML = `${element.degree} em ${element.course}<br>${element.institution}`
+    description.appendChild(diplomaTitle)
+
+    let diplomaYear = document.createElement("p")
+    diplomaYear.innerHTML = `${element.month} de ${element.year}`
+    description.appendChild(diplomaYear)
+
+    content.appendChild(description)
 
     let certifications = document.querySelector(".certifications")
     certifications.appendChild(content)

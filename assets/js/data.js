@@ -5,7 +5,9 @@ const certifications = [
         course: "Dentística",
         institution: "Faculdade Estadual de Odontologia",
         image: "assets/images/diploma.jpg",
-        alt: "diploma"
+        alt: "diploma",
+        month: "janeiro",
+        year: 2020
     },
     {
         degree: "Pós-Graduação",
@@ -13,7 +15,9 @@ const certifications = [
         course: "Implantodontia",
         institution: "Faculdade Estadual de Odontologia",
         image: "assets/images/diploma.jpg",
-        alt: "diploma"
+        alt: "diploma",
+        month: "janeiro",
+        year: 2021
     }
 ]
 
